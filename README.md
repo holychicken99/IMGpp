@@ -1,3 +1,5 @@
-# Boost_FileViewer
 
-converts the given image to B-W array sequence.
+# IMG ++
+
+C++ GUI application to edit images 
+
