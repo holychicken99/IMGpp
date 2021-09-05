@@ -13,6 +13,7 @@ project "output"
 
     filter "configurations:Debug"
         defines {"DEBUG"}
+        links{"png"}
         -- libdirs {"../../../BOOST/boost_1_77_0/stage/lib/"}
         -- links {"boost_regex"}
         symbols "On"

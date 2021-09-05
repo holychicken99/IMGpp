@@ -9,29 +9,29 @@ ifndef verbose
 endif
 
 ifeq ($(config),debug)
-  Boost_viwer_config = debug
+  output_config = debug
 
 else ifeq ($(config),release)
-  Boost_viwer_config = release
+  output_config = release
 
 else
   $(error "invalid configuration $(config)")
 endif
 
-PROJECTS := Boost_viwer
+PROJECTS := output
 
 .PHONY: all clean help $(PROJECTS) 
 
 all: $(PROJECTS)
 
-Boost_viwer:
-ifneq (,$(Boost_viwer_config))
-	@echo "==== Building Boost_viwer ($(Boost_viwer_config)) ===="
-	@${MAKE} --no-print-directory -C . -f Boost_viwer.make config=$(Boost_viwer_config)
+output:
+ifneq (,$(output_config))
+	@echo "==== Building output ($(output_config)) ===="
+	@${MAKE} --no-print-directory -C . -f output.make config=$(output_config)
 endif
 
 clean:
-	@${MAKE} --no-print-directory -C . -f Boost_viwer.make clean
+	@${MAKE} --no-print-directory -C . -f output.make clean
 
 help:
 	@echo "Usage: make [config=name] [target]"
@@ -43,6 +43,6 @@ help:
 	@echo "TARGETS:"
 	@echo "   all (default)"
 	@echo "   clean"
-	@echo "   Boost_viwer"
+	@echo "   output"
 	@echo ""
 	@echo "For more information, see https://github.com/premake/premake-core/wiki"
