@@ -1,2 +1,6 @@
 bin/
 obj/
+Makefile
+.vscode/
+.idea/
+*.make
