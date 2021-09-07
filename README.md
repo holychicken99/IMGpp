@@ -8,22 +8,22 @@ C++ GUI application to edit images
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/holychicken99/CPP_imageBoost
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd boost_fileviewer
 ```
 
 Install dependencies
 
-```bash
+
   [Premake5](https://premake.github.io/):  used to build Makefile, 
-  [Boost libraries](https://www.boost.org/doc/libs/) : for image IO
-  Make : build system
-```
+  [Boost libraries](https://www.boost.org/doc/libs/): for image IO
+  [Make](https://www.gnu.org/software/make/) : build system
+
 
 Create  Makefile
 
