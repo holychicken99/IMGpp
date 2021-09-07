@@ -3,3 +3,42 @@
 
 C++ GUI application to edit images 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  [Premake5](https://premake.github.io/):  used to build Makefile, 
+  [Boost libraries](https://www.boost.org/doc/libs/) : for image IO
+  Make : build system
+```
+
+Create  Makefile
+
+```bash
+  premake5 gmake2
+```
+Run Makefile for debug/release config
+```bash
+  make config=debug/release
+```
+Executables
+```bash
+  cd bin/config; ./output
+  cd bin/release; ./output
+```
+
+
+  
