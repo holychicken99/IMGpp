@@ -30,7 +30,7 @@ Create  Makefile
 ```
 Run Makefile for debug/release config
 ```bash
-  make config=debug/release
+  make consoleApp config={debug/release}
 ```
 Executables
 ```bash
