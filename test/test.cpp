@@ -1,11 +1,8 @@
-#include<catch.hpp>
-#include<iostream>
+#include <catch.hpp>
+#include <iostream>
 
-int main(){
+int main()
+{
 
-std::cout << "hello wa"<< '\n';
-
-
-
-
+    std::cout << "hello wa" << '\n';
 }
