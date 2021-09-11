@@ -54,11 +54,21 @@ void imgViewer::flip_Img_Horizontal() {
     }
   }
 }
+void imgViewer::resize_by_pixels(uint16_t height, uint16_t width) {
+
+  boost::gil::gray8_image_t refImg(width, height);
+  boost::gil::resize_view(boost::gil::const_view(img), boost::gil::view(refImg),
+                          boost::gil::bilinear_sampler());
+  img=refImg;
+
+}
+
 
 int main() {
 
   imgViewer sol("demo3.png");
   sol.flip_Img_Horizontal();
+  sol.resize_by_pixels(500,500);
   //  sol.printInfo();
   sol.save_Img("lpol1.png");
 
