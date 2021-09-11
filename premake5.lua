@@ -9,7 +9,7 @@ project "consoleApp"
     targetdir "bin/%{cfg.buildcfg}"
     includedirs {"/home/alpha/Documents/projects/temp/BOOST/","./include/"}
     buildoptions {"-Wall"}
-    files { "src/temp.cpp"}
+    files { "src/main.cpp"}
     filter "configurations:Debug"
         defines {"ADD_FS_PATH_SUPPORT"}
         links{"png"}
