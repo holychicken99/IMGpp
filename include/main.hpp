@@ -22,11 +22,12 @@ public :
   uint16_t get_Width() ;/// \getWidth returns the width of the image
   unsigned int save_Img(std::string filename); /// \saveimage as the filename
   void flip_Img_Vertical();/// \flip the image vertically
+  void flip_Img_Horizontal();/// \flips the image horizontally
   void printInfo(){
-
-
     std::cout << "the image is "<< img.height()<<"by "<< img.width()<<'\n';
   }
+
+
 
 
 

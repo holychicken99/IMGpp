@@ -23,21 +23,34 @@ unsigned int imgViewer::save_Img(std::string filename) {
   return EXIT_SUCCESS;
 }
 
-
-
 void imgViewer::flip_Img_Vertical() {
 
   boost::gil::gray8_pixel_t px;
   for (int i = 0; i < this->I_height; i++) {
 
-    for (int j = 0; j < this->I_width/2; j++) {
+    for (int j = 0; j < this->I_width / 2; j++) {
 
       px = *boost::gil::view(this->img).at(j, i);
 
-      boost::gil::view(this->img).at(j,i)[0] =
-          boost::gil::view(this->img).at(this->I_width-j-1,i)[0];
+      boost::gil::view(this->img).at(j, i)[0] =
+          boost::gil::view(this->img).at(this->I_width - j - 1, i)[0];
 
-      boost::gil::view(this->img).at(I_width-j-1, i)[0] = px[0];
+      boost::gil::view(this->img).at(I_width - j - 1, i)[0] = px[0];
+    }
+  }
+}
+
+void imgViewer::flip_Img_Horizontal() {
+
+  boost::gil::gray8_pixel_t px;
+  for (int i = 0; i < this->I_width; i++) {
+
+    for (int j = 0; j < this->I_height / 2; j++) {
+
+      px = *boost::gil::view(this->img).at(i, j);
+      boost::gil::view(this->img).at(i, j)[0] =
+          boost::gil::view(this->img).at(i, I_height - j - 1)[0];
+      boost::gil::view(this->img).at(i, I_height - j - 1)[0] = px[0];
     }
   }
 }
@@ -45,15 +58,15 @@ void imgViewer::flip_Img_Vertical() {
 int main() {
 
   imgViewer sol("demo3.png");
-  sol.flip_Img_Vertical();
-//  sol.printInfo();
+  sol.flip_Img_Horizontal();
+  //  sol.printInfo();
   sol.save_Img("lpol1.png");
 
-
-//    std::string filename("demo3.png");
-//    boost::gil::gray8_image_t img;
-//  //
-//      boost::gil::read_and_convert_image(filename, img, boost::gil::png_tag());
+  //    std::string filename("demo3.png");
+  //    boost::gil::gray8_image_t img;
+  //  //
+  //      boost::gil::read_and_convert_image(filename, img,
+  //      boost::gil::png_tag());
   //    boost::gil::gray8_pixel_t px=*boost::gil::const_view(img).at(5,10);
   //    // std::cout << "the pixel is "<< (int)px[0] << '\n';
   //    boost::gil::rgb8_image_t imgops;
