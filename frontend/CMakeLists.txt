@@ -17,9 +17,13 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        ../backend/src/main.cpp
         mainwindow.h
         mainwindow.ui
 )
+# add the boost files directory and the backend directory
+include_directories("/home/alpha/Documents/projects/temp/BOOST/", "../backend/include/")
+
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(frontend
@@ -44,7 +48,9 @@ else()
     endif()
 endif()
 
-target_link_libraries(frontend PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(frontend PRIVATE Qt${QT_VERSION_MAJOR}::Widgets )
+target_link_libraries(frontend PRIVATE -lpng)
+
 
 set_target_properties(frontend PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com

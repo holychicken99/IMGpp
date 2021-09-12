@@ -64,13 +64,13 @@ void imgViewer::resize_by_pixels(uint16_t height, uint16_t width) {
 }
 
 
-int main() {
+// int main() {
 
-  imgViewer sol("demo3.png");
-  sol.flip_Img_Horizontal();
-  sol.resize_by_pixels(500,500);
-  //  sol.printInfo();
-  sol.save_Img("lpol1.png");
+//   imgViewer sol("demo3.png");
+//   sol.flip_Img_Horizontal();
+//   sol.resize_by_pixels(500,500);
+//   //  sol.printInfo();
+//   sol.save_Img("lpol1.png");
 
   //    std::string filename("demo3.png");
   //    boost::gil::gray8_image_t img;
@@ -112,4 +112,4 @@ int main() {
   //           << (int)px[0] << ','
   //           << (int)px[1] << ','
   //           << (int)px[2] << '\n';
-}
+// }

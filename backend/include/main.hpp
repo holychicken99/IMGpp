@@ -5,12 +5,12 @@
 #ifndef BOOST_FILEVIEWER_MAIN_HPP
 #define BOOST_FILEVIEWER_MAIN_HPP
 
+#include <exception>
+#include <iostream>
 #include <boost/gil.hpp>
 #include <boost/gil/extension/io/png.hpp>
 #include <boost/gil/extension/numeric/sampler.hpp>
 #include <boost/gil/extension/numeric/resample.hpp>
-#include <exception>
-#include <iostream>
 
 class imgViewer {
   boost::gil::gray8_image_t img;

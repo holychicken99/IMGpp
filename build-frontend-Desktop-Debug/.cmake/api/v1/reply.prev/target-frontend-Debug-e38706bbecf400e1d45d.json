@@ -11,7 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -25,13 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 47,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
 				"parent" : 0
 			}
 		]
@@ -78,6 +91,18 @@
 				{
 					"backtrace" : 0,
 					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/alpha/Documents/projects/temp/BOOST"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/,"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/../backend/include"
 				},
 				{
 					"backtrace" : 2,
@@ -148,6 +173,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/usr/lib/libQt5Widgets.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lpng",
 				"role" : "libraries"
 			},
 			{
