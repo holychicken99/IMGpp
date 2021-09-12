@@ -6,3 +6,15 @@
     - "refs/heads/main"
   priority: "NORMAL"
   fail_on_prepare_env_warning: true
+  - action: "Execute: g++ main.cpp"
+    type: "BUILD"
+    working_directory: "/buddy/cpp-im-boost-"
+    docker_image_name: "library/gcc"
+    docker_image_tag: "7"
+    execute_commands:
+    - "g++ main.cpp"
+    volume_mappings:
+    - "/:/buddy/cpp-im-boost-"
+    cache_base_image: true
+    shell: "BASH"
+
