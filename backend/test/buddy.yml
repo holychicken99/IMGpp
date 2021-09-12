@@ -1,4 +1,4 @@
-- pipeline: "build"
+- pipeline: "build_1"
   on: "EVENT"
   events:
   - type: "PUSH"
