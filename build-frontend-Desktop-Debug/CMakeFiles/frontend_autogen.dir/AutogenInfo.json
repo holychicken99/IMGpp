@@ -153,6 +153,11 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/main.cpp",
 			"MU",
 			null

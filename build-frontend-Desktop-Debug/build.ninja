@@ -97,6 +97,14 @@ build CMakeFiles/frontend.dir/mainwindow.cpp.o: CXX_COMPILER__frontend_Debug /ho
   OBJECT_DIR = CMakeFiles/frontend.dir
   OBJECT_FILE_DIR = CMakeFiles/frontend.dir
 
+build CMakeFiles/frontend.dir/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp.o: CXX_COMPILER__frontend_Debug /home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp || cmake_object_order_depends_target_frontend
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/frontend.dir/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++11
+  INCLUDES = -I/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug -I/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend -I/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/include -I/home/alpha/Documents/projects/temp/BOOST -I/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/, -I/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/../backend/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/frontend.dir
+  OBJECT_FILE_DIR = CMakeFiles/frontend.dir/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target frontend
@@ -105,7 +113,7 @@ build CMakeFiles/frontend.dir/mainwindow.cpp.o: CXX_COMPILER__frontend_Debug /ho
 #############################################
 # Link the executable frontend
 
-build frontend: CXX_EXECUTABLE_LINKER__frontend_Debug CMakeFiles/frontend.dir/frontend_autogen/mocs_compilation.cpp.o CMakeFiles/frontend.dir/main.cpp.o CMakeFiles/frontend.dir/mainwindow.cpp.o | /usr/lib/libQt5Widgets.so.5.15.2 /usr/lib/libQt5Gui.so.5.15.2 /usr/lib/libQt5Core.so.5.15.2 || frontend_autogen frontend_autogen_timestamp_deps
+build frontend: CXX_EXECUTABLE_LINKER__frontend_Debug CMakeFiles/frontend.dir/frontend_autogen/mocs_compilation.cpp.o CMakeFiles/frontend.dir/main.cpp.o CMakeFiles/frontend.dir/mainwindow.cpp.o CMakeFiles/frontend.dir/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp.o | /usr/lib/libQt5Widgets.so.5.15.2 /usr/lib/libQt5Gui.so.5.15.2 /usr/lib/libQt5Core.so.5.15.2 || frontend_autogen frontend_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.2  -lpng  /usr/lib/libQt5Gui.so.5.15.2  /usr/lib/libQt5Core.so.5.15.2
   OBJECT_DIR = CMakeFiles/frontend.dir
