@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen",
+	"CMAKE_BINARY_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend",
+	"CMAKE_SOURCE_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend",
+	"INCLUDE_DIR" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/CMakeLists.txt.user",
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/assets/index.jpg",
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/assets/open.png",
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/assets/open1.jpg",
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/assets/dw1.jpg",
+		"/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/assets/docs.png"
+	],
+	"LOCK_FILE" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/frontend_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/frontend_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/resources.qrc",
+	"VERBOSITY" : 0
+}

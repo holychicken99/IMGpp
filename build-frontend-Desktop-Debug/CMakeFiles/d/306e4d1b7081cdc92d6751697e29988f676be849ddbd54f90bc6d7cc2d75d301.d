@@ -24,6 +24,7 @@ frontend_autogen/timestamp: \
   /home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/main.cpp \
   /home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/mainwindow.cpp \
   /home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/mainwindow.h \
+  /home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/resources.qrc \
   /home/alpha/Documents/projects/temp/BOOST/boost/assert.hpp \
   /home/alpha/Documents/projects/temp/BOOST/boost/assert/source_location.hpp \
   /home/alpha/Documents/projects/temp/BOOST/boost/concept/assert.hpp \

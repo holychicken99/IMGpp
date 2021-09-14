@@ -144,7 +144,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				9
 			]
 		}
 	],
@@ -208,7 +209,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				9
 			]
 		},
 		{
@@ -216,7 +218,7 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7
 			]
 		},
 		{
@@ -224,14 +226,16 @@
 			"sourceIndexes" : 
 			[
 				5,
-				7
+				6,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				10,
+				11
 			]
 		}
 	],
@@ -273,6 +277,11 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 1,
+			"path" : "resources.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/include/ui_mainwindow.h",
@@ -286,8 +295,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/EWIEGA46WW/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/EWIEGA46WW/qrc_resources.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

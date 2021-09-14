@@ -1,0 +1,5 @@
+/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/frontend.dir
+/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/frontend_autogen_timestamp_deps.dir
+/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/CMakeFiles/frontend_autogen.dir

@@ -1,0 +1,10 @@
+# ninja log v5
+41	101	1631602182293620726	frontend_autogen/timestamp	436c1a6e221cd995
+1527	6010	1631555941790557071	CMakeFiles/frontend.dir/frontend_autogen/mocs_compilation.cpp.o	5000c6f71edaefb8
+104	8508	1631602190699348396	CMakeFiles/frontend.dir/mainwindow.cpp.o	59714909a39ed3c1
+10955	20235	1631555131679242207	CMakeFiles/frontend.dir/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/backend/src/main.cpp.o	d75d91af3362b7cd
+41	101	1631602182293620726	frontend_autogen/mocs_compilation.cpp	436c1a6e221cd995
+41	101	1631602182293620726	/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/mocs_compilation.cpp	436c1a6e221cd995
+8740	11819	1631602194009628950	frontend	ca8872bee709a668
+1527	6338	1631555942118572812	CMakeFiles/frontend.dir/main.cpp.o	5428867763d88474
+41	101	1631602182293620726	/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/timestamp	436c1a6e221cd995

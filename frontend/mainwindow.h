@@ -20,8 +20,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_actionopen_triggered();
+
 private:
     Ui::MainWindow *ui;
-    imgViewer sol();
+    imgViewer img;
+
 };
 #endif // MAINWINDOW_H

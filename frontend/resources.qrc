@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CMakeLists.txt.user</file>
+        <file>assets/index.jpg</file>
+        <file>assets/open.png</file>
+        <file>assets/dw1.jpg</file>
+        <file>assets/open1.jpg</file>
+        <file>assets/docs.png</file>
+    </qresource>
+</RCC>

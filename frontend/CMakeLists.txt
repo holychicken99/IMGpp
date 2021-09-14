@@ -20,6 +20,7 @@ set(PROJECT_SOURCES
         ../backend/src/main.cpp
         mainwindow.h
         mainwindow.ui
+        resources.qrc
 )
 # add the boost files directory and the backend directory
 include_directories("/home/alpha/Documents/projects/temp/BOOST/", "../backend/include/")
