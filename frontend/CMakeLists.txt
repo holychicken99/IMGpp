@@ -22,6 +22,8 @@ set(PROJECT_SOURCES
         mainwindow.ui
         resources.qrc
 )
+
+add_definitions(-DADD_FS_PATH_SUPPORT) # for boost::file  path 2
 # add the boost files directory and the backend directory
 include_directories("/home/alpha/Documents/projects/temp/BOOST/", "../backend/include/")
 

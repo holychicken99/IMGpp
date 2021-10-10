@@ -12,6 +12,7 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"add_definitions",
 			"include_directories"
 		],
 		"files" : 
@@ -26,25 +27,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 52,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 53,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 28,
 				"parent" : 0
 			}
 		]
@@ -67,6 +74,10 @@
 			],
 			"defines" : 
 			[
+				{
+					"backtrace" : 4,
+					"define" : "ADD_FS_PATH_SUPPORT"
+				},
 				{
 					"backtrace" : 2,
 					"define" : "QT_CORE_LIB"
@@ -93,15 +104,15 @@
 					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/build-frontend-Desktop-Debug/frontend_autogen/include"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"path" : "/home/alpha/Documents/projects/temp/BOOST"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/,"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 5,
 					"path" : "/home/alpha/Documents/projects/CPP_ImageApp/boost_fileviewer/frontend/../backend/include"
 				},
 				{
@@ -152,11 +163,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "frontend_autogen::@6890427a1f51a3e7e1df"
+			"id" : "frontend_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "frontend_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "frontend_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "frontend::@6890427a1f51a3e7e1df",

@@ -25,6 +25,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     imgViewer img;
+    std::string path;
 
 };
 #endif // MAINWINDOW_H
